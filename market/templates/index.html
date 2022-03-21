@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block head %} 
+<title>Home</title>
+
+{% endblock %} 
+{% block body %}
+<br>
+<div class="jumbotron" , style="background-color: rgb(255, 238, 220);">
+    <h1 class="display-4">Flask Market!</h1>
+   
+    <hr class="my-4">
+    <p>Click Here to Get Started</p>
+    <p class="lead">
+        
+      <a class="btn btn-dark btn-lg" href="{{ url_for('market')}}" role="button">Visit Market</a>
+      
+      
+    </p>
+    
+  </div>
+{% endblock %}
